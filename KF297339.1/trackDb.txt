@@ -7,28 +7,6 @@ longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
 
-#########################
-
-track sample_for
-type bigWig
-visibility full
-alwaysZero on
-autoScale on
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample_cmv_for.bw
-longLabel Sample forward
-shortLabel Sample forward
-
-track sample_rev
-type bigWig
-visibility full
-alwaysZero on
-autoScale on
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample_cmv_rev.bw
-longLabel Sample reverse
-shortLabel Sample reverse
-
-#########################
-
 track HFF_Mock_CMV_DMSO_for
 type bigWig
 visibility full
