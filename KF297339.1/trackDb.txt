@@ -1,0 +1,8 @@
+track KF297339.1
+type bigGenePred
+group map
+priority 1
+bigDataUrl -
+longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
+shortLabel GenBank KF297339.1
+visibility pack
