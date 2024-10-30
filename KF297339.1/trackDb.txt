@@ -6,3 +6,10 @@ bigDataUrl -
 longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
+
+track HFF Mock CMV DMSO
+type bigWig
+visibility full
+bigDataUrl -
+longLabel HFF Mock CMV DMSO 
+shortLabel HFF Mock CMV DMSO
