@@ -1,0 +1,6 @@
+hub KF297339.1
+shortLabel KF297339.1
+longLabel HFF CMV infection time series PRO-Seq
+genomesFile genomes.txt
+email arya-zandvakili@uiowa.edu
+descriptionUrl https://www.ncbi.nlm.nih.gov/nuccore/KF297339.1
