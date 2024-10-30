@@ -7,23 +7,38 @@ longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
 
-track HFF_Mock_CMV_DMSO_for
-type bigWig
-visibility full
-alwaysZero on
-autoScale on
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_for.bw
-longLabel HFF Mock CMV DMSO forward
-shortLabel HFF Mock CMV DMSO forward
 
-track HFF_Mock_CMV_DMSO_rev
+##############################################
+track HFF_Mock_CMV_DMSO
 type bigWig
-visibility full
-alwaysZero on
-autoScale on
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
-longLabel HFF Mock CMV DMSO reverse
-shortLabel HFF Mock CMV DMSO reverse
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+    track HFF_Mock_CMV_DMSO_for
+    type bigWig
+    parent HFF_Mock_CMV_DMSO
+    visibility full
+    alwaysZero on
+    autoScale on
+    color 255,0,0
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_for.bw
+    longLabel HFF Mock CMV DMSO forward
+    shortLabel HFF Mock CMV DMSO forward
+
+    track HFF_Mock_CMV_DMSO_rev
+    type bigWig
+    parent HFF_Mock_CMV_DMSO
+    visibility full
+    alwaysZero on
+    autoScale on
+    color 255,0,0
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
+    longLabel HFF Mock CMV DMSO reverse
+    shortLabel HFF Mock CMV DMSO reverse
+
+###############################################
 
 track HFF_Mock_CMV_flavo_for
 type bigWig
