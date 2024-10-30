@@ -7,7 +7,7 @@ longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
 
-track HFF Mock CMV DMSO
+track HFF_Mock_CMV_DMSO
 type bigWig
 visibility full
 bigDataUrl https://github.com/aryazand/hff_tb40_timeseries/raw/refs/heads/main/KF297339.1/bw/SRR16301850_cmv_for.bw
