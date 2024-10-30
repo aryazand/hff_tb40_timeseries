@@ -2,7 +2,7 @@ track KF297339.1
 type bigGenePred
 group map
 priority 1
-bigDataUrl -
+bigDataUrl https://github.com/aryazand/hff_tb40_timeseries/raw/refs/heads/main/KF297339.1/KF297339.1.bb
 longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
@@ -10,6 +10,6 @@ visibility pack
 track HFF Mock CMV DMSO
 type bigWig
 visibility full
-bigDataUrl -
+bigDataUrl https://github.com/aryazand/hff_tb40_timeseries/raw/refs/heads/main/KF297339.1/bw/SRR16301850_cmv_for.bw
 longLabel HFF Mock CMV DMSO 
 shortLabel HFF Mock CMV DMSO
