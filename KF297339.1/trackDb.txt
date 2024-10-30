@@ -120,7 +120,10 @@ shortLabel HFF 24hpi CMV Flavo forward
 
 track HFF_24hpi_CMV_flavo_rev
 type bigWig
+type bigWig 0 1000
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_rev.bw
 longLabel HFF 24hpi CMV Flavo reverse
 shortLabel HFF 24hpi CMV Flavo reverse
