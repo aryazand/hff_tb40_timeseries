@@ -10,6 +10,8 @@ visibility pack
 track HFF_Mock_CMV_DMSO_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_for.bw
 longLabel HFF Mock CMV DMSO forward
 shortLabel HFF Mock CMV DMSO forward
@@ -17,6 +19,8 @@ shortLabel HFF Mock CMV DMSO forward
 track HFF_Mock_CMV_DMSO_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
 longLabel HFF Mock CMV DMSO reverse
 shortLabel HFF Mock CMV DMSO reverse
@@ -24,6 +28,8 @@ shortLabel HFF Mock CMV DMSO reverse
 track HFF_Mock_CMV_flavo_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_for.bw
 longLabel HFF Mock CMV Flavo forward
 shortLabel HFF Mock CMV Flavo forward
@@ -31,6 +37,8 @@ shortLabel HFF Mock CMV Flavo forward
 track HFF_Mock_CMV_flavo_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_rev.bw
 longLabel HFF Mock CMV Flavo reverse
 shortLabel HFF Mock CMV Flavo reverse
@@ -40,6 +48,8 @@ shortLabel HFF Mock CMV Flavo reverse
 track HFF_4hpi_CMV_DMSO_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_for.bw
 longLabel HFF 4hpi CMV DMSO forward
 shortLabel HFF 4hpi CMV DMSO forward
@@ -47,6 +57,8 @@ shortLabel HFF 4hpi CMV DMSO forward
 track HFF_4hpi_CMV_DMSO_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_rev.bw
 longLabel HFF 4hpi CMV DMSO reverse
 shortLabel HFF 4hpi CMV DMSO reverse
@@ -54,6 +66,8 @@ shortLabel HFF 4hpi CMV DMSO reverse
 track HFF_4hpi_CMV_flavo_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_for.bw
 longLabel HFF 4hpi CMV Flavo forward
 shortLabel HFF 4hpi CMV Flavo forward
@@ -61,6 +75,8 @@ shortLabel HFF 4hpi CMV Flavo forward
 track HFF_4hpi_CMV_flavo_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_rev.bw
 longLabel HFF 4hpi CMV Flavo reverse
 shortLabel HFF 4hpi CMV Flavo reverse
@@ -70,6 +86,8 @@ shortLabel HFF 4hpi CMV Flavo reverse
 track HFF_12hpi_CMV_DMSO_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_for.bw
 longLabel HFF 12hpi CMV DMSO forward
 shortLabel HFF 12hpi CMV DMSO forward
@@ -77,6 +95,8 @@ shortLabel HFF 12hpi CMV DMSO forward
 track HFF_12hpi_CMV_DMSO_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_rev.bw
 longLabel HFF 12hpi CMV DMSO reverse
 shortLabel HFF 12hpi CMV DMSO reverse
@@ -84,6 +104,8 @@ shortLabel HFF 12hpi CMV DMSO reverse
 track HFF_12hpi_CMV_flavo_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_for.bw
 longLabel HFF 12hpi CMV Flavo forward
 shortLabel HFF 12hpi CMV Flavo forward
@@ -91,6 +113,8 @@ shortLabel HFF 12hpi CMV Flavo forward
 track HFF_12hpi_CMV_flavo_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_rev.bw
 longLabel HFF 12hpi CMV Flavo reverse
 shortLabel HFF 12hpi CMV Flavo reverse
@@ -100,6 +124,8 @@ shortLabel HFF 12hpi CMV Flavo reverse
 track HFF_24hpi_CMV_DMSO_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_for.bw
 longLabel HFF 24hpi CMV DMSO forward
 shortLabel HFF 24hpi CMV DMSO forward
@@ -107,6 +133,8 @@ shortLabel HFF 24hpi CMV DMSO forward
 track HFF_24hpi_CMV_DMSO_rev
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_rev.bw
 longLabel HFF 24hpi CMV DMSO reverse
 shortLabel HFF 24hpi CMV DMSO reverse
@@ -114,6 +142,8 @@ shortLabel HFF 24hpi CMV DMSO reverse
 track HFF_24hpi_CMV_flavo_for
 type bigWig
 visibility full
+alwaysZero on
+autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_for.bw
 longLabel HFF 24hpi CMV Flavo forward
 shortLabel HFF 24hpi CMV Flavo forward
