@@ -33,7 +33,7 @@ maxHeightPixels 500:100:8
     alwaysZero on
     autoScale on
     color 255,0,0
-    negate: 
+    negateValues: on 
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
     longLabel sample1 reverse
     shortLabel sample1 reverse
