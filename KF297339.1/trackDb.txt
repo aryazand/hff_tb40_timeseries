@@ -41,7 +41,7 @@ maxHeightPixels 500:100:8
 
 ###############################################
 
-track sample1_for
+track sample2_for
 type bigWig
 visibility full
 alwaysZero on
