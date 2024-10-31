@@ -7,40 +7,6 @@ longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
 
-
-##############################################
-track sample1
-type bigWig
-container multiWig
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 500:100:8
-
-    track sample1_for
-    type bigWig
-    parent sample1
-    visibility full
-    alwaysZero on
-    autoScale on
-    color 0,250,0
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
-    longLabel sample1 forward
-    shortLabel sample1 forward
-
-    track sample1_rev
-    type bigWig
-    parent sample1
-    visibility full
-    alwaysZero on
-    autoScale on
-    color 255,0,0
-    negate: 
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
-    longLabel sample1 reverse
-    shortLabel sample1 reverse
-
-###############################################
-
 track sample2_for
 type bigWig
 visibility full
@@ -49,3 +15,12 @@ autoScale on
 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample2_cmv_for.bw
 longLabel sample2 forward
 shortLabel sample2 forward
+
+track sample2_rev
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample2_cmv_rev.bw
+longLabel sample2 reverse
+shortLabel sample2 reverse
