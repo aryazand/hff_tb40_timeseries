@@ -8,30 +8,26 @@ shortLabel GenBank KF297339.1
 visibility pack
 
 ##############################################
+
 track sample1
 type bigWig
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
+autoScale on
+alwaysZero on
+visibility full
 maxHeightPixels 500:100:8
 
     track sample1_for
-    type bigWig
     parent sample1
-    visibility full
-    alwaysZero on
-    autoScale on
     color 0,250,0
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
     longLabel sample1 forward
     shortLabel sample1 forward
 
     track sample1_rev
-    type bigWig
     parent sample1
-    visibility full
-    alwaysZero on
-    autoScale on
     color 255,0,0
     negateValues: on 
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
