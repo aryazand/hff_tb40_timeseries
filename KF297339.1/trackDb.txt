@@ -15,7 +15,7 @@ container multiWig
 shortLabel Ex. multiWig container
 longLabel This multiWig overlay track graphs points from three bigWig files.
 visibility full
-aggregate transparentOverlay
+aggregate stack
 showSubtrackColorOnUi on
 viewLimits -20:20
 priority 1
