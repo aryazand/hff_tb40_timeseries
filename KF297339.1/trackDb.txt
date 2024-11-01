@@ -17,7 +17,7 @@ longLabel This multiWig overlay track graphs points from three bigWig files.
 visibility full
 aggregate stack
 showSubtrackColorOnUi on
-viewLimits -20:20
+viewLimits -100:100
 priority 1
 
     track wig1
