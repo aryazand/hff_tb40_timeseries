@@ -373,7 +373,9 @@ priority 12
 ##############################################
 
 track HFF_72hpi_CMV_Flavo
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_72hpi_CMV_Flavo
 longLabel HFF_72hpi_CMV_Flavo
 visibility full
