@@ -17,6 +17,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 2
 
     track HFF_Mock_CMV_DMSO_for
     parent HFF_Mock_CMV_DMSO
@@ -47,6 +48,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 3
 
     track HFF_Mock_CMV_Flavo_for
     parent HFF_Mock_CMV_Flavo
@@ -77,6 +79,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 4
 
     track HFF_4hpi_CMV_DMSO_for
     parent HFF_4hpi_CMV_DMSO
@@ -107,6 +110,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 5
 
     track HFF_4hpi_CMV_Flavo_for
     parent HFF_4hpi_CMV_Flavo
@@ -137,6 +141,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 6
 
     track HFF_12hpi_CMV_DMSO_for
     parent HFF_12hpi_CMV_DMSO
@@ -167,6 +172,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 7
 
     track HFF_12hpi_CMV_Flavo_for
     parent HFF_12hpi_CMV_Flavo
@@ -197,6 +203,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 8
 
     track HFF_24hpi_CMV_DMSO_for
     parent HFF_24hpi_CMV_DMSO
@@ -227,6 +234,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 9
 
     track HFF_24hpi_CMV_Flavo_for
     parent HFF_24hpi_CMV_Flavo
@@ -257,6 +265,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 10
 
     track HFF_48hpi_CMV_DMSO_for
     parent HFF_48hpi_CMV_DMSO
@@ -287,6 +296,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 11
 
     track HFF_48hpi_CMV_Flavo_for
     parent HFF_48hpi_CMV_Flavo
@@ -317,6 +327,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 12
 
     track HFF_72hpi_CMV_DMSO_for
     parent HFF_72hpi_CMV_DMSO
@@ -347,6 +358,7 @@ visibility full
 autoScale group
 maxHeightPixels 100:50:8
 type bigWig
+priority 13
 
     track HFF_72hpi_CMV_Flavo_for
     parent HFF_72hpi_CMV_Flavo
