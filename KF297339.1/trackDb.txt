@@ -9,30 +9,28 @@ visibility pack
 
 ##############################################
 
-track multiWig1
-type bigWig
-container multiWig
-shortLabel Ex. multiWig container
-longLabel This multiWig overlay track graphs points from three bigWig files.
+track sample1
+compositeTrack on
+shortLabel Data signal Composite
+longLabel Composite Data
 visibility full
-aggregate stack
-showSubtrackColorOnUi on
 viewLimits -100:100
-priority 1
+maxHeightPixels 100:50:8
+type bigWig
 
     track wig1
-    parent multiWig1
+    parent sample1
+    shortLabel forward
+    longLabel This is the forward data
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
-    shortLabel Overlay bigWig1
-    longLabel This is an example bigWig1 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
     type bigWig
-    color 255,0,0
+    color 200,100,0
 
     track wig2
-    parent multiWig1
+    parent sample1
+    shortLabel reverse
+    longLabel This is the reverse data
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
-    shortLabel Overlay bigWig2
-    longLabel This is an example bigWig2 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
     type bigWig
-    color 0,200,200
-    negateValues on 
+    color 255,255,0
+    negateValues on
