@@ -20,7 +20,7 @@ type bigWig
 priority 2
 
     track HFF_Mock_CMV_DMSO_for
-    parent HFF_Mock_CMV_DMSO
+    parent A_HFF_Mock_CMV_DMSO
     shortLabel Mock_DMSO_forward
     longLabel HFF_Mock_CMV_DMSO_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_for.bw
@@ -29,7 +29,7 @@ priority 2
     altColor 113,35,124
 
     track HFF_Mock_CMV_DMSO_rev
-    parent HFF_Mock_CMV_DMSO
+    parent A_HFF_Mock_CMV_DMSO
     shortLabel Mock_DMSO_reverse
     longLabel HFF_Mock_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
@@ -51,7 +51,7 @@ type bigWig
 priority 3
 
     track HFF_Mock_CMV_Flavo_for
-    parent HFF_Mock_CMV_Flavo
+    parent B_HFF_Mock_CMV_Flavo
     shortLabel Mock_Flavo_forward
     longLabel HFF_Mock_CMV_Flavo_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_for.bw
@@ -60,7 +60,7 @@ priority 3
     altColor 113,35,124
 
     track HFF_Mock_CMV_Flavo_rev
-    parent HFF_Mock_CMV_Flavo
+    parent B_HFF_Mock_CMV_Flavo
     shortLabel Mock_Flavo_reverse
     longLabel HFF_Mock_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_rev.bw
@@ -71,7 +71,7 @@ priority 3
 
 ##############################################
 
-track HFF_4hpi_CMV_DMSO
+track C_HFF_4hpi_CMV_DMSO
 compositeTrack on
 shortLabel C_HFF_4hpi_CMV_DMSO
 longLabel C_HFF_4hpi_CMV_DMSO
@@ -82,7 +82,7 @@ type bigWig
 priority 4
 
     track HFF_4hpi_CMV_DMSO_for
-    parent HFF_4hpi_CMV_DMSO
+    parent C_HFF_4hpi_CMV_DMSO
     shortLabel 4hpi_DMSO_forward
     longLabel HFF_4hpi_CMV_DMSO_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_for.bw
@@ -91,7 +91,7 @@ priority 4
     altColor 113,35,124
 
     track HFF_4hpi_CMV_DMSO_rev
-    parent HFF_4hpi_CMV_DMSO
+    parent C_HFF_4hpi_CMV_DMSO
     shortLabel 4hpi_DMSO_reverse
     longLabel HFF_4hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_rev.bw
@@ -113,7 +113,7 @@ type bigWig
 priority 5
 
     track HFF_4hpi_CMV_Flavo_for
-    parent HFF_4hpi_CMV_Flavo
+    parent D_HFF_4hpi_CMV_Flavo
     shortLabel 4hpi_Flavo_forward
     longLabel HFF_4hpi_CMV_Flavo_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_for.bw
@@ -122,7 +122,7 @@ priority 5
     altColor 113,35,124
 
     track HFF_4hpi_CMV_Flavo_rev
-    parent HFF_4hpi_CMV_Flavo
+    parent D_HFF_4hpi_CMV_Flavo
     shortLabel 4hpi_Flavo_reverse
     longLabel HFF_4hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_rev.bw
@@ -144,7 +144,7 @@ type bigWig
 priority 6
 
     track HFF_12hpi_CMV_DMSO_for
-    parent HFF_12hpi_CMV_DMSO
+    parent E_HFF_12hpi_CMV_DMSO
     shortLabel 12hpi_DMSO_forward
     longLabel HFF_12hpi_CMV_DMSO_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_for.bw
@@ -153,7 +153,7 @@ priority 6
     altColor 113,35,124
 
     track HFF_12hpi_CMV_DMSO_rev
-    parent HFF_12hpi_CMV_DMSO
+    parent E_HFF_12hpi_CMV_DMSO
     shortLabel 12hpi_DMSO_reverse
     longLabel HFF_12hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_rev.bw
@@ -175,7 +175,7 @@ type bigWig
 priority 7
 
     track HFF_12hpi_CMV_Flavo_for
-    parent HFF_12hpi_CMV_Flavo
+    parent F_HFF_12hpi_CMV_Flavo
     shortLabel 12hpi_Flavo_forward
     longLabel HFF_12hpi_CMV_Flavo_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_for.bw
@@ -184,7 +184,7 @@ priority 7
     altColor 113,35,124
 
     track HFF_12hpi_CMV_Flavo_rev
-    parent HFF_12hpi_CMV_Flavo
+    parent F_HFF_12hpi_CMV_Flavo
     shortLabel 12hpi_Flavo_reverse
     longLabel HFF_12hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_rev.bw
@@ -206,7 +206,7 @@ type bigWig
 priority 8
 
     track HFF_24hpi_CMV_DMSO_for
-    parent HFF_24hpi_CMV_DMSO
+    parent G_HFF_24hpi_CMV_DMSO
     shortLabel 24hpi_DMSO_forward
     longLabel HFF_24hpi_CMV_DMSO_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_for.bw
@@ -215,7 +215,7 @@ priority 8
     altColor 113,35,124
 
     track HFF_24hpi_CMV_DMSO_rev
-    parent HFF_24hpi_CMV_DMSO
+    parent G_HFF_24hpi_CMV_DMSO
     shortLabel 24hpi_DMSO_reverse
     longLabel HFF_24hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_rev.bw
@@ -237,7 +237,7 @@ type bigWig
 priority 9
 
     track HFF_24hpi_CMV_Flavo_for
-    parent HFF_24hpi_CMV_Flavo
+    parent H_HFF_24hpi_CMV_Flavo
     shortLabel 24hpi_Flavo_forward
     longLabel HFF_24hpi_CMV_Flavo_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_for.bw
@@ -246,7 +246,7 @@ priority 9
     altColor 113,35,124
 
     track HFF_24hpi_CMV_Flavo_rev
-    parent HFF_24hpi_CMV_Flavo
+    parent H_HFF_24hpi_CMV_Flavo
     shortLabel 24hpi_Flavo_reverse
     longLabel HFF_24hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_rev.bw
@@ -268,7 +268,7 @@ type bigWig
 priority 10
 
     track HFF_48hpi_CMV_DMSO_for
-    parent HFF_48hpi_CMV_DMSO
+    parent I_HFF_48hpi_CMV_DMSO
     shortLabel 48hpi_DMSO_forward
     longLabel HFF_48hpi_CMV_DMSO_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301859_cmv_for.bw
@@ -277,7 +277,7 @@ priority 10
     altColor 113,35,124
 
     track HFF_48hpi_CMV_DMSO_rev
-    parent HFF_48hpi_CMV_DMSO
+    parent I_HFF_48hpi_CMV_DMSO
     shortLabel 48hpi_DMSO_reverse
     longLabel HFF_48hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301859_cmv_rev.bw
@@ -299,7 +299,7 @@ type bigWig
 priority 11
 
     track HFF_48hpi_CMV_Flavo_for
-    parent HFF_48hpi_CMV_Flavo
+    parent J_HFF_48hpi_CMV_Flavo
     shortLabel 48hpi_Flavo_forward
     longLabel HFF_48hpi_CMV_Flavo_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301860_cmv_for.bw
@@ -308,7 +308,7 @@ priority 11
     altColor 113,35,124
 
     track HFF_48hpi_CMV_Flavo_rev
-    parent HFF_48hpi_CMV_Flavo
+    parent J_HFF_48hpi_CMV_Flavo
     shortLabel 48hpi_Flavo_reverse
     longLabel HFF_48hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301860_cmv_rev.bw
@@ -330,7 +330,7 @@ type bigWig
 priority 12
 
     track HFF_72hpi_CMV_DMSO_for
-    parent HFF_72hpi_CMV_DMSO
+    parent K_HFF_72hpi_CMV_DMSO
     shortLabel 72hpi_DMSO_forward
     longLabel HFF_72hpi_CMV_DMSO_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301861_cmv_for.bw
@@ -339,7 +339,7 @@ priority 12
     altColor 113,35,124
 
     track HFF_72hpi_CMV_DMSO_rev
-    parent HFF_72hpi_CMV_DMSO
+    parent K_HFF_72hpi_CMV_DMSO
     shortLabel 72hpi_DMSO_reverse
     longLabel HFF_72hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301861_cmv_rev.bw
@@ -361,7 +361,7 @@ type bigWig
 priority 13
 
     track HFF_72hpi_CMV_Flavo_for
-    parent HFF_72hpi_CMV_Flavo
+    parent L_HFF_72hpi_CMV_Flavo
     shortLabel 72hpi_Flavo_forward
     longLabel HFF_72hpi_CMV_Flavo_forward
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301862_cmv_for.bw
@@ -370,7 +370,7 @@ priority 13
     altColor 113,35,124
 
     track HFF_72hpi_CMV_Flavo_rev
-    parent HFF_72hpi_CMV_Flavo
+    parent L_HFF_72hpi_CMV_Flavo
     shortLabel 72hpi_Flavo_reverse
     longLabel HFF_72hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301862_cmv_rev.bw
