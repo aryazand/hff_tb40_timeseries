@@ -33,8 +33,8 @@ longLabel This multiWig overlay track graphs points from three bigWig files.
     type bigWig
     longLabel sample1 reverse
     shortLabel sample1 reverse
-    color 250,0,0
-    #negateValues on
+    altColor 250,0,0
+    negateValues on
 
 ###############################################
 
