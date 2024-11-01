@@ -11,7 +11,7 @@ visibility pack
 
 track sample1
 type bigWig
-container multiWig
+compositeTrack on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 visibility full
