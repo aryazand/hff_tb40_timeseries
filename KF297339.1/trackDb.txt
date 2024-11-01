@@ -10,31 +10,43 @@ visibility pack
 ##############################################
 
 track sample1
-type bigWig
 compositeTrack on
-aggregate transparentOverlay
-showSubtrackColorOnUi on
+type bigWig 0 1000
+group UL79
+priority 9.5
 visibility full
-maxHeightPixels 500:100:8
-shortLabel Ex. multiWig container
-longLabel This multiWig overlay track graphs points from three bigWig files.
-
+shortLabel Exp1 72h UL79HF dTAG
+longLabel Exp1 72h UL79HF dTAG
+ 
     track sample1_for
-    parent sample1
+    parent sample1 on
+    type bigWig 0 1000
+    visibility full
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
-    type bigWig
-    longLabel sample1 forward
-    shortLabel sample1 forward
-    color 0,250,0
+    longLabel sample1 forward 
+    shortLabel sampel1 forward
+    negateValues off
+    color 113,35,124
+    altColor 113,35,124
+    alwaysZero on
+    autoScale on
+    maxHeightPixels 128:128:16
     
-    track sample1_rev
-    parent sample1
+    track sample1_for
+    parent sample1 on
+    type bigWig 0 1000
+    visibility full
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
-    type bigWig
-    longLabel sample1 reverse
-    shortLabel sample1 reverse
-    altColor 250,0,0
+    longLabel sample1 forward 
+    shortLabel sampel1 forward
     negateValues on
+    color 113,35,124
+    altColor 113,35,124
+    alwaysZero on
+    autoScale on
+    maxHeightPixels 128:128:16
+
+
 
 ###############################################
 
