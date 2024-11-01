@@ -10,7 +10,9 @@ visibility pack
 ##############################################
 
 track HFF_Mock_CMV_DMSO
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_Mock_CMV_DMSO
 longLabel HFF_Mock_CMV_DMSO
 visibility full
@@ -35,15 +37,17 @@ priority 2
     longLabel HFF_Mock_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 2.2
 
 ##############################################
 
 track HFF_Mock_CMV_Flavo
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_Mock_CMV_Flavo
 longLabel HFF_Mock_CMV_Flavo
 visibility full
@@ -68,15 +72,17 @@ priority 3
     longLabel HFF_Mock_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 3.2
 
 ##############################################
 
 track HFF_4hpi_CMV_DMSO
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_4hpi_CMV_DMSO
 longLabel HFF_4hpi_CMV_DMSO
 visibility full
@@ -101,15 +107,17 @@ priority 4
     longLabel HFF_4hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 4.2
 
 ##############################################
 
 track HFF_4hpi_CMV_Flavo
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_4hpi_CMV_Flavo
 longLabel HFF_4hpi_CMV_Flavo
 visibility full
@@ -134,15 +142,17 @@ priority 5
     longLabel HFF_4hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 5.2
 
 ##############################################
 
 track HFF_12hpi_CMV_DMSO
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_12hpi_CMV_DMSO
 longLabel HFF_12hpi_CMV_DMSO
 visibility full
@@ -167,15 +177,17 @@ priority 6
     longLabel HFF_12hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 6.2
 
 ##############################################
 
 track HFF_12hpi_CMV_Flavo
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_12hpi_CMV_Flavo
 longLabel HFF_12hpi_CMV_Flavo
 visibility full
@@ -200,15 +212,17 @@ priority 7
     longLabel HFF_12hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 7.2
 
 ##############################################
 
 track HFF_24hpi_CMV_DMSO
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_24hpi_CMV_DMSO
 longLabel HFF_24hpi_CMV_DMSO
 visibility full
@@ -233,15 +247,17 @@ priority 8
     longLabel HFF_24hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 8.2
 
 ##############################################
 
 track HFF_24hpi_CMV_Flavo
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel H_HFF_24hpi_CMV_Flavo
 longLabel H_HFF_24hpi_CMV_Flavo
 visibility full
@@ -266,15 +282,17 @@ priority 9
     longLabel HFF_24hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 9.2
 
 ##############################################
 
 track HFF_48hpi_CMV_DMSO
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_48hpi_CMV_DMSO
 longLabel HFF_48hpi_CMV_DMSO
 visibility full
@@ -299,15 +317,17 @@ priority 10
     longLabel HFF_48hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301859_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 10.2
 
 ##############################################
 
 track HFF_48hpi_CMV_Flavo
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_48hpi_CMV_Flavo
 longLabel HFF_48hpi_CMV_Flavo
 visibility full
@@ -332,15 +352,17 @@ priority 11
     longLabel HFF_48hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301860_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 11.2
 
 ##############################################
 
 track HFF_72hpi_CMV_DMSO
-compositeTrack on
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel HFF_72hpi_CMV_DMSO
 longLabel HFF_72hpi_CMV_DMSO
 visibility full
@@ -365,8 +387,8 @@ priority 12
     longLabel HFF_72hpi_CMV_DMSO_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301861_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 12.2
 
