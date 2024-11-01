@@ -9,98 +9,33 @@ visibility pack
 
 ##############################################
 
-track sample1
-compositeTrack on
-type bigWig 0 1000
-group sample1_group
-priority 9.5
-visibility full
-shortLabel sample1
-longLabel sample1
- 
-    track sample1_for
-    parent sample1 on
-    type bigWig 0 1000
-    visibility full
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
-    longLabel sample1 forward 
-    shortLabel sampel1 forward
-    negateValues off
-    color 113,35,124
-    altColor 113,35,124
-    alwaysZero on
-    autoScale on
-    maxHeightPixels 128:128:16
-    
-    track sample1_rev
-    parent sample1 on
-    type bigWig 0 1000
-    visibility full
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
-    longLabel sample1 reverse 
-    shortLabel sampel1 reverse
-    negateValues on
-    color 113,35,124
-    altColor 113,35,124
-    alwaysZero on
-    autoScale on
-    maxHeightPixels 128:128:16
-
-###############################################
- 
-track Exp1_72h_UL79HF_dTAG
+track multiWig1
+type bigWig
 container multiWig
+shortLabel Ex. multiWig container
+longLabel This multiWig overlay track graphs points from three bigWig files.
+visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-type bigWig 0 1000
-visibility full
-shortLabel Exp1 72h UL79HF dTAG
-longLabel Exp1 72h UL79HF dTAG
- 
-    track Exp1_72h_UL79HF_dTAG_FW
-    parent Exp1_72h_UL79HF_dTAG
-    type bigWig 0 1000
-    visibility full
-    bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TB40E-UL79/master/KF297339.1/UL79/Exp1_72h_UL79HF_dTAG-dedup-KF297339.1-FW.bw
-    longLabel Exp1 72h UL79HF 6h dTAG 
-    shortLabel Exp1 72h UL79HF 6h dTAG 
-    negateValues off
-    color 113,35,124
-    altColor 113,35,124
-    alwaysZero on
-    autoScale on
-    maxHeightPixels 128:128:16
+maxHeightPixels 500:100:8
+viewLimits 1:20
+priority 1
+html examplePage
 
-    track Exp1_72h_UL79HF_dTAG_RV
-    parent Exp1_72h_UL79HF_dTAG
-    type bigWig 0 1000
-    visibility full
-    bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TB40E-UL79/master/KF297339.1/UL79/Exp1_72h_UL79HF_dTAG-dedup-KF297339.1-RV.bw
-    longLabel Exp1 72h UL79HF 6h dTAG 
-    shortLabel Exp1 72h UL79HF 6h dTAG 
-    negateValues on
-    color 113,35,124
-    altColor 113,35,124
-    alwaysZero on
-    autoScale on
-    maxHeightPixels 128:128:16
+                track wig1
+                bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
+                shortLabel Overlay bigWig1
+                longLabel This is an example bigWig1 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
+                parent multiWig1
+                graphTypeDefault points
+                type bigWig
+                color 255,0,0
 
-###############################################
-
-track sample2_for
-type bigWig
-visibility full
-alwaysZero on
-autoScale on
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample2_cmv_for.bw
-longLabel sample2 forward
-shortLabel sample2 forward
-
-track sample2_rev
-type bigWig
-visibility full
-alwaysZero on
-autoScale on
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample2_cmv_rev.bw
-longLabel sample2 reverse
-shortLabel sample2 forward
+                track wig2
+                bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
+                shortLabel Overlay bigWig2
+                longLabel This is an example bigWig2 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
+                graphTypeDefault points
+                parent multiWig1
+                type bigWig
+                color 0,255,0
