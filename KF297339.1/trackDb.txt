@@ -400,7 +400,7 @@ priority 13
     longLabel HFF_72hpi_CMV_Flavo_reverse
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301862_cmv_rev.bw
     type bigWig
-    color 113,35,124
-    altColor 113,35,124
+    color 242,157,228
+    altColor 242,157,228
     negateValues on
     priority 13.2
