@@ -38,5 +38,5 @@ html examplePage
                 graphTypeDefault points
                 parent multiWig1
                 type bigWig
-                #color 0,255,0
+                altColor 0,1,0
                 negateValues on 
