@@ -9,29 +9,60 @@ visibility pack
 
 ##############################################
 
-track sample1
+track HFF_Mock_CMV_DMSO
 compositeTrack on
-shortLabel Data signal Composite
-longLabel Composite Data
+shortLabel HFF_Mock_CMV_DMSO
+longLabel HFF_Mock_CMV_DMSO
 visibility full
 viewLimits -100:100
 maxHeightPixels 100:50:8
 type bigWig
 
-    track wig1
-    parent sample1
+    track HFF_Mock_CMV_DMSO_for
+    parent HFF_Mock_CMV_DMSO
     shortLabel forward
-    longLabel This is the forward data
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
+    longLabel HFF_Mock_CMV_DMSO_forward
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_for.bw
     type bigWig
-    color 200,100,0
+    color 113,35,124
+    altColor 113,35,124
 
-    track wig2
-    parent sample1
+    track HFF_Mock_CMV_DMSO_rev
+    parent HFF_Mock_CMV_DMSO
     shortLabel reverse
-    longLabel This is the reverse data 2
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
+    longLabel HFF_Mock_CMV_DMSO_reverse
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
     type bigWig
-    color 0,0,200
-    altColor 0,0,200
+    color 113,35,124
+    altColor 113,35,124
+    negateValues on
+
+##############################################
+
+track HFF_Mock_CMV_Flavo
+compositeTrack on
+shortLabel HFF_Mock_CMV_Flavo
+longLabel HFF_Mock_CMV_Flavo
+visibility full
+viewLimits -100:100
+maxHeightPixels 100:50:8
+type bigWig
+
+    track HFF_Mock_CMV_Flavo_for
+    parent HFF_Mock_CMV_Flavo
+    shortLabel forward
+    longLabel HFF_Mock_CMV_Flavo_forward
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_for.bw
+    type bigWig
+    color 113,35,124
+    altColor 113,35,124
+
+    track HFF_Mock_CMV_Flavo_rev
+    parent HFF_Mock_CMV_Flavo
+    shortLabel reverse
+    longLabel HFF_Mock_CMV_Flavo_reverse
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_rev.bw
+    type bigWig
+    color 113,35,124
+    altColor 113,35,124
     negateValues on
