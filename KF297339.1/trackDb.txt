@@ -32,7 +32,7 @@ longLabel Exp1 72h UL79HF dTAG
     autoScale on
     maxHeightPixels 128:128:16
     
-    track sample1_for
+    track sample1_rev
     parent sample1 on
     type bigWig 0 1000
     visibility full
