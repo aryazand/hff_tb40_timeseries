@@ -12,7 +12,7 @@ visibility pack
 track sample1
 compositeTrack on
 type bigWig 0 1000
-group sample1
+group sample1_group
 priority 9.5
 visibility full
 shortLabel sample1
