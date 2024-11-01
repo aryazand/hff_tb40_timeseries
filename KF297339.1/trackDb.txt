@@ -12,28 +12,28 @@ visibility pack
 track sample1
 type bigWig
 container multiWig
-aggregate stacked
+aggregate transparentOverlay
 showSubtrackColorOnUi on
 visibility full
 maxHeightPixels 500:100:8
+shortLabel Ex. multiWig container
+longLabel This multiWig overlay track graphs points from three bigWig files.
 
     track sample1_for
     parent sample1
-    color 0,250,0
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
+    type bigWig
     longLabel sample1 forward
     shortLabel sample1 forward
-    autoScale on
-    alwaysZero on
-
+    color 0,250,0
+    
     track sample1_rev
     parent sample1
-    color 255,0,0
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
+    type bigWig
     longLabel sample1 reverse
     shortLabel sample1 reverse
-    autoScale on
-    alwaysZero on
+    color 0,250,0
     negateValues on
 
 ###############################################
