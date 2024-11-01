@@ -37,8 +37,8 @@ longLabel Exp1 72h UL79HF dTAG
     type bigWig 0 1000
     visibility full
     bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
-    longLabel sample1 forward 
-    shortLabel sampel1 forward
+    longLabel sample1 reverse 
+    shortLabel sampel1 reverse
     negateValues on
     color 113,35,124
     altColor 113,35,124
