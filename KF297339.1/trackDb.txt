@@ -34,6 +34,7 @@ maxHeightPixels 500:100:8
     shortLabel sample1 reverse
     autoScale on
     alwaysZero on
+    negateValues on
 
 ###############################################
 
