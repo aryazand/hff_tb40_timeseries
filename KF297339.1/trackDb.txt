@@ -12,7 +12,7 @@ visibility pack
 track sample1
 type bigWig
 container multiWig
-aggregate transparentOverlay
+aggregate stacked
 showSubtrackColorOnUi on
 visibility full
 maxHeightPixels 500:100:8
