@@ -39,3 +39,4 @@ html examplePage
                 parent multiWig1
                 type bigWig
                 color 0,255,0
+                negateValues on 
