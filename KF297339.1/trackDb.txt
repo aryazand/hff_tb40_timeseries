@@ -27,7 +27,6 @@ html examplePage
                 shortLabel Overlay bigWig1
                 longLabel This is an example bigWig1 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
                 parent multiWig1
-                graphTypeDefault points
                 type bigWig
                 color 255,0,0
 
@@ -35,7 +34,6 @@ html examplePage
                 bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
                 shortLabel Overlay bigWig2
                 longLabel This is an example bigWig2 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
-                graphTypeDefault points
                 parent multiWig1
                 type bigWig
                 altColor 0,1,0
