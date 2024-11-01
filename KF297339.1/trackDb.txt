@@ -17,24 +17,22 @@ longLabel This multiWig overlay track graphs points from three bigWig files.
 visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-maxHeightPixels 500:100:8
 viewLimits -20:20
 priority 1
-html examplePage
 
-                track wig1
-                bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
-                shortLabel Overlay bigWig1
-                longLabel This is an example bigWig1 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
-                parent multiWig1
-                type bigWig
-                color 255,0,0
+    track wig1
+    parent multiWig1
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_for.bw
+    shortLabel Overlay bigWig1
+    longLabel This is an example bigWig1 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
+    type bigWig
+    color 255,0,0
 
-                track wig2
-                bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
-                shortLabel Overlay bigWig2
-                longLabel This is an example bigWig2 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
-                parent multiWig1
-                type bigWig
-                altColor 0,1,0
-                negateValues on 
+    track wig2
+    parent multiWig1
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/sample1_cmv_rev.bw
+    shortLabel Overlay bigWig2
+    longLabel This is an example bigWig2 displaying Raw Signal from the ENCODE RNA-seq CSHL track, graphing just points as default.
+    type bigWig
+    color 0,200,200
+    negateValues on 
