@@ -2,7 +2,7 @@ track KF297339.1
 type bigGenePred
 group map
 priority 1
-bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/KF297339.1.bb
+bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/KF297339.1.bb
 longLabel Annotated CDS for HCMV strain TB40-E (KF297339.1)
 shortLabel GenBank KF297339.1
 visibility pack
@@ -25,7 +25,7 @@ priority 2
     parent HFF_Mock_CMV_DMSO
     shortLabel Mock_DMSO_forward
     longLabel HFF_Mock_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301850_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -35,7 +35,7 @@ priority 2
     parent HFF_Mock_CMV_DMSO
     shortLabel Mock_DMSO_reverse
     longLabel HFF_Mock_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301850_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301850_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -60,7 +60,7 @@ priority 2
     parent HFF_Mock_CMV_DMSO_2
     shortLabel Mock_DMSO_forward
     longLabel HFF_Mock_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301851_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301851_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -70,7 +70,7 @@ priority 2
     parent HFF_Mock_CMV_DMSO_2
     shortLabel Mock_DMSO_reverse
     longLabel HFF_Mock_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301851_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301851_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -95,7 +95,7 @@ priority 3
     parent HFF_Mock_CMV_Flavo
     shortLabel Mock_Flavo_forward
     longLabel HFF_Mock_CMV_Flavo_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301852_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -105,7 +105,7 @@ priority 3
     parent HFF_Mock_CMV_Flavo
     shortLabel Mock_Flavo_reverse
     longLabel HFF_Mock_CMV_Flavo_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301852_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301852_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -130,7 +130,7 @@ priority 4
     parent HFF_4hpi_CMV_DMSO
     shortLabel 4hpi_DMSO_forward
     longLabel HFF_4hpi_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301853_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -140,7 +140,7 @@ priority 4
     parent HFF_4hpi_CMV_DMSO
     shortLabel 4hpi_DMSO_reverse
     longLabel HFF_4hpi_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301853_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301853_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -165,7 +165,7 @@ priority 5
     parent HFF_4hpi_CMV_Flavo
     shortLabel 4hpi_Flavo_forward
     longLabel HFF_4hpi_CMV_Flavo_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301854_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -175,7 +175,7 @@ priority 5
     parent HFF_4hpi_CMV_Flavo
     shortLabel 4hpi_Flavo_reverse
     longLabel HFF_4hpi_CMV_Flavo_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301854_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301854_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -200,7 +200,7 @@ priority 6
     parent HFF_12hpi_CMV_DMSO
     shortLabel 12hpi_DMSO_forward
     longLabel HFF_12hpi_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301855_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -210,7 +210,7 @@ priority 6
     parent HFF_12hpi_CMV_DMSO
     shortLabel 12hpi_DMSO_reverse
     longLabel HFF_12hpi_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301855_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301855_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -235,7 +235,7 @@ priority 7
     parent HFF_12hpi_CMV_Flavo
     shortLabel 12hpi_Flavo_forward
     longLabel HFF_12hpi_CMV_Flavo_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301856_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -245,7 +245,7 @@ priority 7
     parent HFF_12hpi_CMV_Flavo
     shortLabel 12hpi_Flavo_reverse
     longLabel HFF_12hpi_CMV_Flavo_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301856_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301856_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -270,7 +270,7 @@ priority 8
     parent HFF_24hpi_CMV_DMSO
     shortLabel 24hpi_DMSO_forward
     longLabel HFF_24hpi_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301857_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -280,7 +280,7 @@ priority 8
     parent HFF_24hpi_CMV_DMSO
     shortLabel 24hpi_DMSO_reverse
     longLabel HFF_24hpi_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301857_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301857_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -305,7 +305,7 @@ priority 9
     parent HFF_24hpi_CMV_Flavo
     shortLabel 24hpi_Flavo_forward
     longLabel HFF_24hpi_CMV_Flavo_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301858_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -315,7 +315,7 @@ priority 9
     parent HFF_24hpi_CMV_Flavo
     shortLabel 24hpi_Flavo_reverse
     longLabel HFF_24hpi_CMV_Flavo_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301858_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301858_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -340,7 +340,7 @@ priority 10
     parent HFF_48hpi_CMV_DMSO
     shortLabel 48hpi_DMSO_forward
     longLabel HFF_48hpi_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301859_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301859_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -350,7 +350,7 @@ priority 10
     parent HFF_48hpi_CMV_DMSO
     shortLabel 48hpi_DMSO_reverse
     longLabel HFF_48hpi_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301859_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301859_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -375,7 +375,7 @@ priority 11
     parent HFF_48hpi_CMV_Flavo
     shortLabel 48hpi_Flavo_forward
     longLabel HFF_48hpi_CMV_Flavo_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301860_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301860_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -385,7 +385,7 @@ priority 11
     parent HFF_48hpi_CMV_Flavo
     shortLabel 48hpi_Flavo_reverse
     longLabel HFF_48hpi_CMV_Flavo_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301860_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301860_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -410,7 +410,7 @@ priority 12
     parent HFF_72hpi_CMV_DMSO
     shortLabel 72hpi_DMSO_forward
     longLabel HFF_72hpi_CMV_DMSO_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301861_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301861_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -420,7 +420,7 @@ priority 12
     parent HFF_72hpi_CMV_DMSO
     shortLabel 72hpi_DMSO_reverse
     longLabel HFF_72hpi_CMV_DMSO_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301861_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301861_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
@@ -445,7 +445,7 @@ priority 13
     parent HFF_72hpi_CMV_Flavo
     shortLabel 72hpi_Flavo_forward
     longLabel HFF_72hpi_CMV_Flavo_forward
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301862_cmv_for.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301862_cmv_for.bw
     type bigWig
     color 113,35,124
     altColor 113,35,124
@@ -455,7 +455,7 @@ priority 13
     parent HFF_72hpi_CMV_Flavo
     shortLabel 72hpi_Flavo_reverse
     longLabel HFF_72hpi_CMV_Flavo_reverse
-    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/KF297339.1/bw/SRR16301862_cmv_rev.bw
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301862_cmv_rev.bw
     type bigWig
     color 242,157,228
     altColor 242,157,228
