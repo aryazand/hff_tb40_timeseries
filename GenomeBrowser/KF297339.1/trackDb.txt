@@ -461,3 +461,38 @@ priority 13
     altColor 242,157,228
     negateValues on
     priority 13.2
+
+##############################################
+
+track HFF_72hpi_CMV_Flavo_5prime
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel HFF_72hpi_CMV_Flavo_fiveprime
+longLabel HFF_72hpi_CMV_Flavo_fiveprime
+visibility full
+autoScale group
+maxHeightPixels 100:50:8
+type bigWig
+priority 13
+
+    track HFF_72hpi_CMV_Flavo_for_fiveprime
+    parent HFF_72hpi_CMV_Flavo_fiveprime
+    shortLabel 72hpi_Flavo_forward_fiveprime
+    longLabel HFF_72hpi_CMV_Flavo_forward_fiveprime
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301862_cmv_for_fiveprime.bw
+    type bigWig
+    color 113,35,124
+    altColor 113,35,124
+    priority 13.1
+
+    track HFF_72hpi_CMV_Flavo_rev_fiveprime
+    parent HFF_72hpi_CMV_Flavo_fiveprime
+    shortLabel 72hpi_Flavo_reverse_fiveprime
+    longLabel HFF_72hpi_CMV_Flavo_reverse_fiveprime
+    bigDataUrl https://raw.githubusercontent.com/aryazand/hff_tb40_timeseries/master/GenomeBrowser/KF297339.1/bw/SRR16301862_cmv_rev_fiveprime.bw
+    type bigWig
+    color 242,157,228
+    altColor 242,157,228
+    negateValues on
+    priority 13.2
